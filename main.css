@@ -49,6 +49,12 @@ h2 {
 .mt-160{
     margin-top: 160px;
 }
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-56{
+    margin-bottom: 56px;
+}
 
 /* Header */
 #header .logo {
@@ -71,94 +77,63 @@ h2 {
 }
 
 /* Shop */
-#shop .banner {
-    width: 100%;
-    height: 800px;
-    overflow: hidden;
-}
-
-#shop {
-    position: relative;
-}
-
-#shop .shop-container {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 132px;
-    margin: 0 auto;
-    height: 800px;
-}
-
-#shop .shop-content {
-    padding-right: 85px;
-}
-
-#shop .shop-content h1 {
+#shop h1 {
     font-size: 72px;
 }
 
-#shop .shop-content p {
+#shop .shop-content-1 {
     font-size: 22px;
 }
 
+#shop .shop-content-2 {
+    font-size: 22px;
+    margin-top: 140px;
+}
 #shop .shop-btn {
     background-color: var(--green);
     font-weight: 600;
     color: #fff;
-    padding-left: 37px;
-    padding-right: 37px;
+    padding: 8px 37px;
 }
-
-#shop .shop-no-btn {
-    width: 120px;
+#shop .shop-quality-btn {
     padding: 6px 0;
-    border: 1px solid var(--grey1);
-    border-radius: 5px;
     padding: 0;
-}
-
-#shop .shop-no-btn .quality {
     text-align: center;
     line-height: 46px;
 }
-
-#shop .shop-no-btn .up-down-btn {
+#shop .shop-quality{
+    border-radius: 5px;
+    border: 1px solid var(--grey1);
+}
+#shop .up-down-btn {
     text-align: center;
     background-color: var(--grey2);
     color: var(--grey);
     padding: 6px 0;
     margin: 0px;
 }
-
-#shop .shop-margin {
-    margin: 100px 0;
+#shop .up-down-btn:hover{
+    cursor: pointer;
 }
+
 /* Product */
-#product .service-container {
-    padding: 0 30px;
-}
-
-#product .service-container h2 {
+#product .product-container h2 {
     margin-bottom: 48px;
 }
-#product .service-container h3{
+#product .product-container h3{
     margin: 24px 0;
     font-size: 24px;
 }
-#product .service-container p{
+#product .product-container p{
     font-size: 18px;
 }
 /* Service */
 #service .service-heading{
     text-align: center;
-    padding: 0 150px;
-    margin-bottom: 0px;
 }
 #service .service-desc{
     font-size: 22px;
     text-align: center;
-    padding: 8px 250px;
 }
 #service .service-container{
     padding: 0 40px;
@@ -184,26 +159,17 @@ h2 {
     padding: 32px;
     border: 1px solid var(--grey1);
     border-radius: 8px;
-    /* margin-left: 8px; */
-    /* margin-right: 8px; */
 }
 #price .price-container button:hover{
     background-color: var(--purple);
     color: #fff;
 }
-/* #price  .price-container:nth-of-type(2) button{
-    background-color: var(--purple);
-    color: #fff;
-} */
 #price .price-heading{
     text-align: center;
-    padding: 0 150px;
-    margin-bottom: 0px;
 }
 #price .price-desc{
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
-    padding: 12px 350px;
     color: var(--grey);
 }
 #price h4{
@@ -236,30 +202,13 @@ h2 {
 /* Contact */
 #contact .contact-bg{
     background-color: var(--grey1);
-    height: 800px;
-    position: relative;
 }
-#contact .contact-banner{
-    position: relative;
-}
-#contact .contact-banner-img{
-    overflow: hidden;
-    /* padding: 100px 100px 100px 0px; */
-    position: absolute;
-    left: -50%;
-    top: 100px;
-
+#contact .contact-margin-0{
+    margin-left: -12px;
+    margin-right: -12px;
 }
 #contact .contact-content{
-    position: absolute;
-    top: 132px;
-    right: 0;
-    padding-right: 85px;
-    padding-left: 32px;
     color: #fff;
-}
-#contact .contact-content h2{
-    margin-bottom: 16px;
 }
 #contact .contact-content p:nth-of-type(1){
     font-size: 24px;
@@ -287,6 +236,7 @@ h2 {
     color: #fff;
     padding: 12px 0;
     width: 350px;
+    margin-top: 12px;
 }
 /* Footer */
 /* Footer top */

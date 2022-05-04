@@ -1,0 +1,28 @@
+@media (max-width: 991px){
+    .product-container h2{
+        text-align: center;
+    }
+    .price-container{
+        margin-bottom: 24px;
+    }
+    #contact .contact-content{
+        margin-bottom: 56px;
+    }
+    #footer .footer-top-btn{
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media (min-width: 992px){
+    #price .price-list{
+    justify-content: space-between;
+    }
+    #price .price-container{
+        width: 32%;
+    }
+    #contact .contact-content{
+        color: #fff;
+        padding-top: 120px;
+    }
+}
