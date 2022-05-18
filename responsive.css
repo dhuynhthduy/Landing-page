@@ -1,4 +1,9 @@
 @media (max-width: 991px){
+    #shop img{
+        width: 170%;
+        overflow: hidden;
+
+    }
     .product-container h2{
         text-align: center;
     }
@@ -24,5 +29,55 @@
     #contact .contact-content{
         color: #fff;
         padding-top: 120px;
+    }
+}
+@media (max-width:576px){
+    #shop h1{
+        font-size: 36px;
+    }
+    #shop .shop-content-1,
+    #shop .shop-content-2{
+        font-size: 18px;
+    }
+    #product #Illustration{
+        width: 100%;
+    }
+    #product h2{
+        font-size: 36px;
+    }
+    #service h2{
+        font-size: 36px;
+    }
+    #service .service-desc{
+        font-size: 18px;
+    }
+    #price .price-heading{
+        font-size: 36px;
+    }
+    #price .price-desc{
+        font-size: 18px;
+    }
+    #contact img{
+        width: 170%;
+        overflow: hidden;
+    }
+    #contact .contact-content{
+        font-size: 20px;
+    }
+    #contact h2{
+        font-size: 36px;
+    }
+    #contact .contact-content p:nth-of-type(2){
+        font-size: 18px;
+    }
+    #contact .input-icon{
+        top: calc(50% - 16px);
+        font-size: 16px;
+    }
+    #contact .btn-download{
+        width: 321px;
+    }
+    #contact form input{
+        width: 321px;
     }
 }
