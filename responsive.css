@@ -1,7 +1,7 @@
 @media (max-width: 991px){
     #shop img{
         width: 170%;
-        overflow: hidden;
+        overflow: clip;
 
     }
     .product-container h2{
@@ -38,6 +38,9 @@
     #shop .shop-content-1,
     #shop .shop-content-2{
         font-size: 18px;
+    }
+    .shop-img{
+        overflow: hidden;
     }
     #product #Illustration{
         width: 100%;
